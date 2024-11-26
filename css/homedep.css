@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    overflow:hidden;
+}
+
+.title {
+    width: 882px;
+    height: 72px;
+    left: 300px;
+    top: 150px;
+    position: absolute;
+    color: #45A834;
+    font-size: 50px; 
+    font-family: Katibeh;
+    font-weight: 400;
+    word-wrap: break-word;
+    }
+
+    .menu {
+    width: 1380px;
+    height: 40px;
+    left: 80px;
+    top: 30px;
+    position: absolute;
+}
+
+.menu-background {
+    width: 1380px;
+    height: 100px;
+    position: absolute;
+    background: #da91001a;
+
+}
+
+.menu-item {
+    position: absolute;
+    text-align: center;
+    color: #8a5d23;
+    font-size: 36px;
+    font-family: Karma;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.pesquisa{
+    width: 1400px;
+    height: 2000px;
+    left: 1150px;
+    top: 50px;
+    position: absolute;
+}
+.icon {
+    font-size: 40px;
+    left: 1200px;
+    color: b#8a5d23;
+    font-family: Katibeh;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.vantagens { left: 15px; top: 30px; width: 185px; }
+.videos { left: 200px; top: 30px; width: 185px; }
+.exemplos { left: 400px; top: 30px; width: 185px; }
+.depoimentos { left: 580px; top: 30px; width: 264px; }
+.noticias { left: 800px; top: 30px; width: 264px; }
+.search { left: 995px; top: 30px; width: 264px; }
+
+.login-entrar {
+    width: 218px;
+    height: 65px;
+    left: 1192px;
+    top: 150px;
+    position: absolute;
+}
+
+.login-background {
+    width: 200px;
+    height: 65px;
+    position: absolute;
+    background: rgba(57, 174, 73, 0.20);
+    border-radius: 14px;
+    border: 1px solid;
+}
+
+.login-text {
+    width: 184px;
+    height: 33px;
+    position: absolute;
+    left: 0px;
+    top: 05px;
+    text-align: center;
+    color: #39AE49;
+    font-size: 48px;
+    font-family: Katibeh;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.logo {
+    width: 157px;
+    height: 137px;
+    position: absolute;
+    left: 45px;
+    top: 120px;
+}
+.text1 {
+    width: 300px;
+    height: 100px;
+    top: 530px;
+    left: 100px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Katibeh;
+    font-weight: 400;
+    grid-column: 2;
+    grid-row: 9;
+}
+.text2 {
+    width: 300px;
+    height: 100px;
+    top: 530px;
+    left: 440px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Katibeh;
+    font-weight: 400;
+}
+.text3 {
+    width: 300px;
+    height: 100px;
+    top: 530px;
+    left: 780px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Katibeh;
+    font-weight: 400;
+}
+.text4 {
+    width: 300px;
+    height: 100px;
+    left: 1120px;
+    top: 530px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Katibeh;
+    font-weight: 400;
+}
+.img1 {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left: 120px;
+    top: 270px;
+    border-radius: 15px;
+}
+.img2 {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left: 460px;
+    top: 270px;
+    border-radius: 15px;
+}
+.img3 {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left: 800px;
+    top: 270px;
+    border-radius: 15px;
+}
+.img4 {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left: 1140px;
+    top: 270px;
+    border-radius: 15px;
+}
+.star1 {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left: 120px;
+    top: 530px;
+}
+.star2 {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left: 460px;
+    top: 530px;
+}
+.star3 {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left: 800px;
+    top: 530px;
+}
+.star4 {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left: 1140px;
+    top: 530px;
+}
+

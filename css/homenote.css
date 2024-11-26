@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    overflow:hidden;
+}
+
+.title {
+    width: 882px;
+    height: 72px;
+    left: 300px;
+    top: 150px;
+    position: absolute;
+    color: #45A834;
+    font-size: 50px; 
+    font-family: Katibeh;
+    font-weight: 400;
+    word-wrap: break-word;
+    }
+
+    .menu {
+    width: 1380px;
+    height: 40px;
+    left: 80px;
+    top: 30px;
+    position: absolute;
+}
+
+.menu-background {
+    width: 1380px;
+    height: 100px;
+    position: absolute;
+    background: #da91001a;
+
+}
+
+.menu-item {
+    position: absolute;
+    text-align: center;
+    color: #8a5d23;
+    font-size: 36px;
+    font-family: Karma;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.pesquisa{
+    width: 1400px;
+    height: 2000px;
+    left: 1150px;
+    top: 50px;
+    position: absolute;
+}
+.icon {
+    font-size: 40px;
+    left: 1200px;
+    color: b#8a5d23;
+    font-family: Katibeh;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.vantagens { left: 15px; top: 30px; width: 185px; }
+.videos { left: 200px; top: 30px; width: 185px; }
+.exemplos { left: 400px; top: 30px; width: 185px; }
+.depoimentos { left: 580px; top: 30px; width: 264px; }
+.noticias { left: 800px; top: 30px; width: 264px; font-weight: bolder;}
+.search { left: 995px; top: 30px; width: 264px; }
+
+.login-entrar {
+    width: 218px;
+    height: 65px;
+    left: 1192px;
+    top: 150px;
+    position: absolute;
+}
+
+.login-background {
+    width: 200px;
+    height: 65px;
+    position: absolute;
+    background: rgba(57, 174, 73, 0.20);
+    border-radius: 14px;
+    border: 1px solid;
+}
+
+.login-text {
+    width: 184px;
+    height: 33px;
+    position: absolute;
+    left: 0px;
+    top: 05px;
+    text-align: center;
+    color: #39AE49;
+    font-size: 48px;
+    font-family: Katibeh;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.logo {
+    width: 157px;
+    height: 137px;
+    position: absolute;
+    left: 45px;
+    top: 120px;
+}
+
+.img1 {
+    width: 700px;
+    height: 290px;
+    position: absolute;
+    left: 700px;
+    top: 440px;
+}
+
+.img2 {
+    width: 1000px;
+    height: 200px;
+    position: absolute;
+    left: 270px;
+    top: 230px;
+  }
+
+  .manchete {
+    width: 882px;
+    height: 72px;
+    left: 190px;
+    top: 120px;
+    position: absolute;
+    color: #ff0000;
+    font-size: 30px; 
+    font-family: Katibeh;
+    font-weight: 800;
+    font-style:bold;
+    }
+  
+.texto {
+    width: 624px;
+    color: #48300f;
+    position:relative;
+    top: 450px;
+    left: 100px;
+    font-family: Katibeh;
+    font-size: 20px;
+  }
