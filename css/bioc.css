@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: rgba(218, 145, 0, 0.1);
+    padding: 10px 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0 auto; 
+}
+
+.menu ul li {
+    text-align: center;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    transition: transform 0.3s ease; 
+}
+
+.menu ul li a:hover {
+    transform: scale(1.1); 
+}
+
+.menu ul li .menu-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+.menu-actions {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.menu input[type="text"] {
+    padding: 6px;
+    font-size: 12px;
+    border: 1px solid rgba(218, 145, 0, 0.2); 
+    border-radius: 5px;
+    max-width: 180px;
+}
+
+/* Botão para saber mais sobre bioconstrução */
+.botao-bioconstrucao {
+    background-color: #83AE7C;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.botao-bioconstrucao:hover {
+    background-color: #6c8f65;
+}
+
+/* Estilo das Caixas de Host em Grade */
+.host-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+@media (max-width: 768px) {
+    .host-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .host-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.host-card {
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.host-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.host-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 71px;
+}
+
+.host-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.host-info h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.host-info .specialty,
+.host-info .price {
+    font-size: 14px;
+    color: #666;
+    margin: 3px 0;
+}
+
+.footer {
+    background-color: rgba(218, 145, 0, 0.1); 
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    border-top: 1px solid #ddd;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-content a:hover {
+    color: #6c8f65; 
+}

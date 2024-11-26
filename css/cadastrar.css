@@ -1,0 +1,164 @@
+body { 
+    background-color: #F5F5EF; /* Define a cor de fundo do body como 'bisque' */
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o padding padrão do body */
+}
+header > * { 
+    color: #8A5D23;
+    display: grid; /* Torna cada filho um grid para layout interno */
+    padding: 0; /* Remove os paddings dos filhos */
+    
+}
+img {
+    width: 490px;
+    height: 360px;
+    position: absolute; 
+    left: 200px;
+    top: 130px;
+}
+
+h3{
+    
+    color: #8A5D23;
+    position: absolute;
+    right: 90px;
+    margin-top: 50px;
+}
+
+
+p{
+    font-family: Cormorant Garamond; /* Define a fonte do site */
+    line-height: 1.6; /* Ajusta o espaçamento vertical entre as linhas */
+    color: #8A5D23; /* Define a cor do texto */
+    
+    
+}
+
+H2 {
+    font-family: Cormorant Garamond;
+    color: #8A5D23;
+    position: absolute; 
+    left: 367px;
+    top: 510px;
+}
+
+H5 {
+    font-family: Cormorant Garamond;
+    color: #8A5D23;
+    position: absolute; 
+    left: 375px;
+    top: 550px;
+}
+
+/* Aplica estilos aos filhos diretos do main */
+main > * { 
+     /* Define a cor de fundo dos filhos diretos do main como 'blue' */
+    min-height: 0px; /* Define uma altura mínima de 0px (permite ajuste pelo conteúdo) */
+    display: grid; /* Torna os filhos diretos grids para layout interno */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+/* Define o estilo geral do main */
+main { 
+    display: grid; /* Transforma o main em um grid */
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas iguais dentro do main */
+    gap: 5px; /* Define um espaçamento de 5px entre os itens do grid */
+}
+
+
+/* Estilo para todas as sections */
+section { 
+    grid-column: 1/-2; /* Faz a section ocupar da primeira coluna até a penúltima */
+     /* Define a cor de fundo como 'chartreuse' */
+    justify-content: center;
+}
+
+.texto1 {
+    font-family: Cormorant Garamond;
+    font-weight: bolder;
+    font-size:70px;
+    color: #8A5D23;
+    position: absolute; 
+    right: 120px;
+    top: 106px;
+}
+
+form {
+    margin-top: 75px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    width: 410px;
+
+  }
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8A5D23;
+    width: 400px;
+}
+
+.input-group input {
+    
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.input-group input[type="submit"] {
+    background-color: #8A5D23;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 420px;
+}
+
+.input-group input[type="submit"]:hover {
+    background-color: #45a049;
+    width: 420px;
+}
+
+.textologin {
+    height: 10px;
+    position: absolute; 
+    right: 279px;
+}
+
+.button {
+    background-color: #8A5D23;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 400px;
+    height: 16px;
+}
+
+
+/* Estilo para o aside lateral */
+.aside-lateral { 
+    /*opacity: 0.3;*/
+    height: 490px; 
+    margin: 70px;
+    width: 490px;
+    border-radius: 8px;
+    background-color:rgba(218, 145, 0, 0.29);
+    margin-top: 100px;
+}
+
+/* Estilo para o rodapé */
+footer { 
+    color: #8A5D23;
+    position: absolute;
+    right: 119px;
+    bottom: 0px;
+    margin-bottom: 90px;
+}
