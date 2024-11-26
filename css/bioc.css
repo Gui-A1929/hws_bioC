@@ -89,7 +89,7 @@ header {
     background-color: #6c8f65;
 }
 
-/* Estilo das Caixas de Host em Grade */
+
 .host-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
