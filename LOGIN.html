@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="LOGIN.css">
+</head>
+<body>
+    <main class="container">
+        <section class="logo-section">
+            <div class="logo">
+                <img src="logo.png" alt="Logo da Empresa">
+            </div>
+            <h2>LOGIN</h2>
+        </section>
+        <aside class="login-section">
+            <form action="/submit" method="POST">
+                <div class="form-title">LOGIN</div>
+                
+                <div class="input-group">
+                    <label for="email-telefone">EMAIL/TELEFONE</label>
+                    <input type="text" id="email-telefone" name="email-telefone" placeholder="Digite seu e-mail ou telefone" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="senha">SENHA</label>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                </div>
+                
+                <a href="#" class="forgot-password">ESQUECEU A SENHA?</a>
+
+                <button type="submit" class="btn btn-primary">ENTRAR</button>
+                <a href="#" class="register-link">Não tem conta? Cadastre</a>
+            </form>
+        </aside>
+    </main>
+</body>
+</html>
