@@ -1,4 +1,4 @@
-/* Configurações gerais */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -10,7 +10,7 @@ body {
 
 
 
-/* Conteúdo principal */
+
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -20,7 +20,7 @@ main {
     border-radius: 5px;
 }
 
-/* Títulos */
+
 h1, h2 {
     color: #DA9100;
     margin-bottom: 1rem;
@@ -36,12 +36,12 @@ h2 {
     margin-top: 1.5rem;
 }
 
-/* Parágrafos */
+
 p {
     margin-bottom: 1rem;
 }
 
-/* Links */
+
 a {
     color: #DA9100;
     text-decoration: none;
@@ -52,7 +52,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Rodapé */
+
 footer {
     text-align: center;
     padding: 1rem 0;
