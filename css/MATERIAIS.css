@@ -1,0 +1,173 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cormorant Garamond;
+    background-color: #f7f4f0;
+    color: hsl(0, 10%, 6%);
+}
+
+/* Barra de navegação */
+.navbar {
+    background-color: #da910033;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px #d1b692;
+    flex-wrap: wrap;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Logo */
+.nav-list .logo img {
+    width: 100px;
+    margin-right: 200px; /* Aproxima mais a logo do texto */
+    margin: 0 0 -70px 0;
+}
+
+/* Links de navegação */
+.nav-list li a {
+    text-decoration: none;
+    color: #8A5D23;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Alinha o texto abaixo da imagem */
+    gap: 5px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.menu-image {
+    width: 24px;
+    height: 24px;
+}
+
+.nav-list .search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex: 1;
+    max-width: 200px;
+}
+
+.nav-list .search input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.nav-list .search button {
+    background-color: #f0e3c1;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+/* Seção de boas-vindas */
+.welcome-section {
+    text-align: center;
+    margin: 0px auto;
+    max-width: 90%;
+    padding: 20px;
+}
+
+.welcome-section h1 {
+    color: #45A834;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.welcome-section .welcome-image {
+    width: 100%;
+    max-width: 500px;
+    border: 5px solid #eef1f4;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.welcome-section .description {
+    font-size: 1.1em;
+    margin-top: 10px;
+    color: #6C1A18;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu-image {
+        width: 20px;
+        height: 20px;
+    }
+
+    .welcome-section h1 {
+        font-size: 1.8em;
+    }
+
+    .welcome-section .welcome-image {
+        max-width: 300px;
+    }
+
+    .welcome-section .description {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 10px 5px;
+    }
+
+    .nav-list {
+        gap: 5px;
+    }
+
+    .welcome-section h1 {
+        font-size: 1.5em;
+    }
+
+    .welcome-section .description {
+        font-size: 0.9em;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
+.botao-continuar {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    background-color: #8a5d23;
+    color: #f4e8d8; 
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px; 
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
