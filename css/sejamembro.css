@@ -4,6 +4,7 @@ body {
     position: relative; /* Necessário para o pseudo-elemento ser posicionado corretamente */
     margin: 0;
     height: 100vh; /* Garante que o body ocupe a altura total da tela */
+    background-color: #F5F5EF;
 }
 
 body::before {
