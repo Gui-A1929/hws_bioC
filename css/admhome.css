@@ -1,7 +1,7 @@
 body {
-    position: relative; /* Necessário para o pseudo-elemento ser posicionado corretamente */
+    position: relative; 
     margin: 0;
-    height: 100vh; /* Garante que o body ocupe a altura total da tela */
+    height: 100vh; 
 }
 
 body::before {
@@ -11,7 +11,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%; /* Garante que o pseudo-elemento cubra o body */
-    background-image: url('midia/logotipo.png');
+    background-image: url('../imagens/logotipo.png');
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat; /* Evita que a imagem se repita */
