@@ -5,7 +5,9 @@
 
 body{
     overflow:hidden;
+    background-color: #F5F5EF;
 }
+
 
 .title {
 width: 882px;
@@ -70,6 +72,11 @@ word-wrap: break-word;
     word-wrap: break-word;
 }
 
+.menu-item > a {
+    text-decoration: none;
+    color: #8A5D23;
+}
+
 .pesquisa{
     width: 1400px;
     height: 2000px;
@@ -80,7 +87,7 @@ word-wrap: break-word;
 .icon {
     font-size: 40px;
     left: 1200px;
-    color: b#8a5d23;
+    color: #8a5d23;
     font-family: Katibeh;
     font-weight: 400;
     margin-right: 10px;
@@ -99,6 +106,7 @@ word-wrap: break-word;
     left: 1192px;
     top: 150px;
     position: absolute;
+    text-decoration: none;
 }
 
 .login-background {
@@ -122,6 +130,12 @@ word-wrap: break-word;
     font-family: Katibeh;
     font-weight: 400;
     word-wrap: break-word;
+    text-decoration: none;
+}
+
+.login-text > a {
+    text-decoration: none;
+    color: #39AE49
 }
 
 .logo {

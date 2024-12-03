@@ -1,0 +1,152 @@
+body {
+    background-color: #F5F5EF;
+}
+
+.logo {
+    position: absolute;
+    top: 5px; 
+    left: 10px;
+    width: 130px;
+    height: 100px;
+}
+
+.sair {
+    position: absolute;
+    top: 20px; 
+    right: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.home {
+    position: absolute;
+    top: 23px; 
+    right: 60px;
+    width: 25px;
+    height: 25px;
+}
+
+.contatos {
+    position: absolute;
+    height: 650px; 
+    margin-left: 60px;
+    width: 1400px;
+    border-radius: 10px;
+    background-color:#f0e3c1;
+    margin-top: 35px;
+}
+
+.titulo {
+    position: absolute;
+    top: 10px; 
+    left: 490px;
+    color:#138808;
+}
+
+.nome1 {
+    position: absolute;
+    top: 430px; 
+    left: 150px;
+    color:#C04000;
+}
+
+.nome2 {
+    position: absolute;
+    top: 430px; 
+    left: 460px;
+    color:#C04000;
+}
+
+.nome3 {
+    position: absolute;
+    top: 430px; 
+    left: 800px;
+    color:#C04000;
+}
+
+.nome4 {
+    position: absolute;
+    top: 430px; 
+    right: 110px;
+    color:#C04000;
+}
+
+.info1 {
+    position: absolute;
+    top: 445px; 
+    left: 70px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.info2 {
+    position: absolute;
+    top: 445px; 
+    left: 390px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.info3 {
+    position: absolute;
+    top: 445px; 
+    left: 710px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.info4 {
+    position: absolute;
+    top: 445px; 
+    right: 50px;
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.img1 {
+    height: 290px;
+    width: 310px;
+    position: absolute;
+    top: 120px; 
+    left: 70px;
+    border-radius: 300px;
+}
+
+.img2 {
+    height: 290px;
+    width: 310px;
+    position: absolute;
+    top: 120px; 
+    left: 388px;
+    border-radius: 300px;
+}
+
+.img3 {
+    height: 290px;
+    width: 310px;
+    position: absolute;
+    top: 120px; 
+    left: 705px;
+    border-radius: 300px;
+}
+
+.img4 {
+    height: 290px;
+    width: 310px;
+    position: absolute;
+    top: 120px; 
+    right: 70px;
+    border-radius: 300px;
+}

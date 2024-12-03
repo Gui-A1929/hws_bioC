@@ -1,33 +1,10 @@
-/* body {
-    background-image: url('logotipo.png');  /*Caminho da imagem de fundo 
-    /* background-size: cover;  Faz a imagem cobrir toda a tela *
-    background-size: contain;
-    position: relative;
-    background-position: center center;  /* Centraliza a imagem 
-    /*background-attachment: fixed;   Mantém a imagem fixa ao rolar a página
-    margin: 0;  /* Remove margens padrão do navegador 
-    height: 100vh;  /* Define a altura da página como 100% da altura da tela 
-    /*color: white;  Cor do texto (pode ser ajustada conforme necessário) 
-    font-family: Arial, sans-serif;  Define uma fonte 
-}
 
-body::before {
-    content: "";
-    /*position: absolute; 
-    background-image: url('logotipo.png');
-    background-size: contain;
-    background-position: center center; 
-    background-attachment: fixed; 
-    margin: 0;
-    height: 100vh; 
-    opacity: 0.1;
-    z-index: -1;
-} */
 
 body {
     position: relative; /* Necessário para o pseudo-elemento ser posicionado corretamente */
     margin: 0;
     height: 100vh; /* Garante que o body ocupe a altura total da tela */
+    background-color: #F5F5EF;
 }
 
 body::before {

@@ -5,6 +5,7 @@
 
 body{
     overflow:hidden;
+    background-color: #F5F5EF;
 }
 
 .title {
@@ -44,6 +45,11 @@ body{
     font-family: Karma;
     font-weight: 400;
     word-wrap: break-word;
+}
+
+.menu-item > a {
+    text-decoration: none;
+    color: #8A5D23;
 }
 
 .pesquisa{
@@ -98,6 +104,11 @@ body{
     font-family: Katibeh;
     font-weight: 400;
     word-wrap: break-word;
+}
+
+.login-text > a {
+    text-decoration: none;
+    color: #39AE49
 }
 
 .logo {
