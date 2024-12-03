@@ -121,6 +121,8 @@ body{
   font-family: Katibeh;
   font-weight: 400;
   word-wrap: break-word;
+  text-decoration: none;
+  
 }
 
 .pedidos-background {
