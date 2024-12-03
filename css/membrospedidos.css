@@ -20,12 +20,7 @@ body{
     font-weight: 400;
     word-wrap: break-word;
     }
-    .menu-inicio { left: 15px; top: 30px; width: 185px; }
-    .pedidos { left: 400px; top: 30px; width: 185px; }
-    .menu-meusprojetos { left: 400px; top: 30px; width: 185px; }
-    .contatos { left: 580px; top: 30px; width: 264px; }
-
-
+  
 .menu-meusprojetos {
   width: 122px;
   color: rgba(138,93,35,1);
@@ -71,12 +66,19 @@ body{
   border-bottom-right-radius: 6px;
   grid-template-columns: repeat(11,auto);
 }
-
+.menu-list{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+    align-items: center; 
+    padding: 30px 20px;
+    gap: 0px;
+}
 .menu-item {
-    position: absolute;
+  text-decoration: none;
+    
     text-align: center;
     color: #8a5d23;
-    font-size: 36px;
+    font-size: 24px;
     font-family: Karma;
     font-weight: 400;
     word-wrap: break-word;
@@ -84,8 +86,8 @@ body{
 .pesquisa{
     width: 1400px;
     height: 2000px;
-    left: 1150px;
-    top: 40px;
+    left: 1250px;
+    top: 30px;
     position: absolute;
     grid-column: 10;
 }
@@ -462,3 +464,4 @@ body{
   left: 100px;
   top: 2780px;
 }
+
