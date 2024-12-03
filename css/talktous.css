@@ -84,6 +84,17 @@ h1.ridge {
     left: 40px;
     font-family: Cormorant Garamond;
     color: #8B0000;
+    text-decoration: none;
+}
+
+h3> *{ 
+    text-decoration: none;
+    color: #8B0000;
+}
+
+h4> *{ 
+    text-decoration: none;
+    color: #780303;
 }
 
 .back {

@@ -1,40 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br"> 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="css/LOGIN.css">
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Login</title> 
+    <link rel="stylesheet" href="css/LOGIN.css"> 
 </head>
 <body>
-    <main class="container">
-        <section class="logo-section">
+    <main class="container"> <!-- Contêiner principal da página -->
+        <section class="logo-section"> <!-- Seção para exibir o logo da empresa -->
             <div class="logo">
-                <img src="imagens/logo.png" alt="Logo da Empresa">
+                <img src="imagens/logo.png" alt="Logo da Empresa"> <!-- Exibe a imagem do logo -->
             </div>
-            <h2>LOGIN</h2>
+            <h2>LOGIN</h2> <!-- Título da seção -->
         </section>
-        <aside class="login-section">
-            <form action="/submit" method="POST">
-                <div class="form-title">LOGIN</div>
+        <aside class="login-section"> <!-- Seção de login -->
+            <form action="/submit" method="POST"> <!-- Formulário de login com método POST -->
+                <div class="form-title">LOGIN</div> <!-- Título do formulário -->
                 
-                <div class="input-group">
-                    <label for="email-telefone">EMAIL/TELEFONE</label>
-                    <input type="text" id="email-telefone" name="email-telefone" placeholder="Digite seu e-mail ou telefone" required>
+                <div class="input-group"> <!-- Grupo de entrada para e-mail/telefone -->
+                    <label for="email-telefone">EMAIL/TELEFONE</label> <!-- Rótulo para o campo -->
+                    <input type="text" id="email-telefone" name="email-telefone" placeholder="Digite seu e-mail ou telefone" required> <!-- Campo de entrada de texto -->
                 </div>
                 
-                <div class="input-group">
-                    <label for="senha">SENHA</label>
-                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                <div class="input-group"> <!-- Grupo de entrada para senha -->
+                    <label for="senha">SENHA</label> <!-- Rótulo para o campo -->
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required> <!-- Campo de entrada de senha -->
                 </div>
                 
-                <a href="ESQUECEUSENHA.html" class="forgot-password">ESQUECEU A SENHA?</a>
+                <a href="ESQUECEUSENHA.html" class="forgot-password">ESQUECEU A SENHA?</a> <!-- Link para recuperação de senha -->
 
-               
-                <button type="submit" class="btn btn-primary">ENTRAR</button>
-             
-
-                <a href="cadastrar.html" class="register-link">Não tem conta? Cadastre</a>
+                <button type="submit" class="btn btn-primary">ENTRAR</button> <!-- Botão para submeter o formulário -->
+                
+                <a href="cadastrar.html" class="register-link">Não tem conta? Cadastre</a> <!-- Link para a página de cadastro -->
             </form>
         </aside>
     </main>

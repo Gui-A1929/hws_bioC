@@ -17,6 +17,11 @@ img {
     top: 130px;
 }
 
+a{ 
+    text-decoration: none;
+    color: #8A5D23;
+}
+
 h3{
     
     color: #8A5D23;
