@@ -9,13 +9,6 @@ body{
 }
 
 
-.li > a{ 
-    list-style: none;
-    text-decoration: none;
-    outline-style: none;
-    color: inherit;
-}
-
 .title {
 width: 882px;
 height: 72px;

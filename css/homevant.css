@@ -47,6 +47,11 @@ body{
     word-wrap: break-word;
 }
 
+.menu-item > a {
+  text-decoration: none;
+  color: #8A5D23;
+}
+
 .pesquisa{
     width: 1400px;
     height: 2000px;
@@ -100,6 +105,12 @@ body{
     font-weight: 400;
     word-wrap: break-word;
 }
+
+.login-text > a {
+  text-decoration: none;
+  color: #39AE49
+}
+
 
 .logo {
     width: 157px;
