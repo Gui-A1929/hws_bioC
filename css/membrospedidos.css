@@ -13,55 +13,22 @@ body{
 }
 
 .title {
-    width: 882px;
-    height: 72px;
-    left: 280px;
-    top: 400px;
-    position: absolute;
-    color: #45A834;
-    font-size: 50px; 
-    font-family: Katibeh;
-    font-weight: 400;
-    word-wrap: break-word;
-    }
+  width: 882px;
+  height: 72px;
+  left: 280px;
+  top: 400px;
+  position: absolute;
+  color: #45A834;
+  font-size: 50px; 
+  font-family: Katibeh;
+  font-weight: 400;
+  word-wrap: break-word;
+  }
 
 .login-text > * {
   text-decoration: none;
   color: #45A834;
 } 
-
-  
-.menu-meusprojetos {
-  width: 122px;
-  color: rgba(138,93,35,1);
-  grid-column: 6;
-  top: 65px;
-  font-family: Karma;
-  font-weight: Regular;
-  font-size: 36px;
-
-
-}
-.menu-pedidos {
-  width: 122px;
-  color: rgba(138,93,35,1);
-  grid-column: 4;
-  top: 65px;
-  font-family: Karma;
-  font-weight: Regular;
-  font-size: 36px;
-
-}
-.menu-contato {
-  width: 122px;
-  color: rgba(138,93,35,1);
-  grid-column: 8;
-  top: 65px;
-  font-family: Karma;
-  font-weight: Regular;
-  font-size: 36px;
-
-}
 
 .menu-background {
   width: 100%;
@@ -76,6 +43,7 @@ body{
   border-bottom-right-radius: 6px;
   grid-template-columns: repeat(11,auto);
 }
+
 .menu-list{
   display: grid;
   grid-template-columns: repeat(4, auto);
@@ -83,6 +51,7 @@ body{
     padding: 30px 20px;
     gap: 0px;
 }
+
 .menu-item {
   text-decoration: none;
     
@@ -93,13 +62,15 @@ body{
     font-weight: 400;
     word-wrap: break-word;
 }
+
+
 .pesquisa{
-    width: 1400px;
-    height: 2000px;
-    left: 1250px;
-    top: 30px;
-    position: absolute;
-    grid-column: 10;
+  width: 1400px;
+  height: 2000px;
+  left: 1250px;
+  top: 30px;
+  position: absolute;
+  grid-column: 10;
 }
 
 .login-entrar {
@@ -185,239 +156,184 @@ body{
   word-wrap: break-word;
 }
 
-  .rodape {
-    width: 150%;
-    height: 78px;
-    background: #da91004d;
-    position: absolute;
-    top: 3650px;
-    left: -80px;
-    overflow: hidden;
-  }
- 
-  .name {
-    color: #fff;
-  }
- 
-  .menu-inicio {
-    width: 122px;
-    color: rgba(138,93,35,1);
-    grid-column: 2;
-    top: 65px;
-    font-family: Karma;
-    font-weight: Regular;
-    font-size: 36px;
-  }
-  .menu-meusprojetos {
-    width: 223px;
-    color: #8a5d23;
-    position: absolute;
-    top: 64px;
-    left: 479px;
-    font-family: Karma;
-    font-weight: Regular;
-    font-size: 36px;
-    text-align: center;
-  }
-  
-  .name {
-    color: #fff;
-  }
+.ctt{
+  width: 252px;
+  color: rgba(69,168,52,1);
+  position: absolute;
+  top: 3400px;
+  left: 590px;
+  font-family: Katibeh;
+  font-weight: Regular;
+  font-size: 70px;
+  text-align: left;
+}
+.contatos {
+  width: 291px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 3500px;
+  left: 598px;
+  font-family: Katibeh;
+  font-weight: Regular;
+  font-size: 25px;
+  text-align: left;
+}
 
-  .box1 {
-    width: 564px;
-    height: 150px;
-    background: #d9d9d9;
-    opacity: 1;
-    position: absolute;
-    top: 645px;
-    left: 743px;
+.pedidosconcluidos {
+  width: 500px;
+  color: rgba(138,93,35,1);
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  font-family: Karma;
+  font-weight: Regular;
+  font-size: 36px;
+  text-align: left;
+}
 
-    overflow: hidden;
-  }
- 
-  .ctt{
-    width: 252px;
-    color: rgba(69,168,52,1);
-    position: absolute;
-    top: 3400px;
-    left: 590px;
-    font-family: Katibeh;
-    font-weight: Regular;
-    font-size: 70px;
-    text-align: left;
-  }
-  .contatos {
-    width: 291px;
-    color: rgba(0,0,0,1);
-    position: absolute;
-    top: 3500px;
-    left: 598px;
-    font-family: Katibeh;
-    font-weight: Regular;
-    font-size: 25px;
-    text-align: left;
-  }
+.novospedidos {
+  width: 500px;
+  color: rgba(138,93,35,1);
+  position: absolute;
+  left: 100px;
+  top: 1080px;
+  font-family: Karma;
+  font-weight: Regular;
+  font-size: 36px;
+  text-align: left;
+}
 
-  .pedidosconcluidos {
-    width: 500px;
-    color: rgba(138,93,35,1);
-    position: absolute;
-    top: 120px;
-    left: 10px;
-    font-family: Karma;
-    font-weight: Regular;
-    font-size: 36px;
-    text-align: left;
-  }
+.pedidosandamento {
+  width: 500px;
+  color: rgba(138,93,35,1);
+  position: absolute;
+  left: 100px;
+  top: 1300px;
+  font-family: Karma;
+  font-weight: Regular;
+  font-size: 36px;
+  text-align: left;
+}
 
-  .novospedidos {
-    width: 500px;
-    color: rgba(138,93,35,1);
-    position: absolute;
-    left: 100px;
-    top: 1080px;
-    font-family: Karma;
-    font-weight: Regular;
-    font-size: 36px;
-    text-align: left;
-  }
+.pedidosatrasados {
+  width: 500px;
+  color: rgba(138,93,35,1);
+  position: absolute;
+  left: 100px;
+  top: 1750px;
+  font-family: Karma;
+  font-weight: Regular;
+  font-size: 36px;
+  text-align: left;
+}
 
-  .pedidosandamento {
-    width: 500px;
-    color: rgba(138,93,35,1);
-    position: absolute;
-    left: 100px;
-    top: 1300px;
-    font-family: Karma;
-    font-weight: Regular;
-    font-size: 36px;
-    text-align: left;
-  }
+.info {
+  width: 511px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 650px;
+  left: 770px;
+  font-family: Karma;
+  font-weight: Regular;
+  font-size: 30px;
+  text-align: center;
+}
 
-  .pedidosatrasados {
-    width: 500px;
-    color: rgba(138,93,35,1);
-    position: absolute;
-    left: 100px;
-    top: 1750px;
-    font-family: Karma;
-    font-weight: Regular;
-    font-size: 36px;
-    text-align: left;
-  }
+.luizalmeida {
+  width: 200px;
+  color: #000000;
+  position: absolute;
+  top: 2560px;
+  left: 398px;
+  font-family: Katibeh;
+  font-weight: Regular;
+  font-size: 29px;
+  text-align: left;
+}
 
- 
-  .info {
-    width: 511px;
-    color: rgba(0,0,0,1);
-    position: absolute;
-    top: 650px;
-    left: 770px;
-    font-family: Karma;
-    font-weight: Regular;
-    font-size: 30px;
-    text-align: center;
-  }
- 
-  .luizalmeida {
-    width: 200px;
-    color: #000000;
-    position: absolute;
-    top: 2560px;
-    left: 398px;
-    font-family: Katibeh;
-    font-weight: Regular;
-    font-size: 29px;
-    text-align: left;
-  }
+.julianasilva {
+  width: 1000px;
+  color: #000000;
+  position: absolute;
+  top: 1130px;
+  left: 360px;
+  font-family: Katibeh;
+  font-weight: Regular;
+  font-size: 24px;
+  text-align: left;
+}
 
-  .julianasilva {
-    width: 1000px;
-    color: #000000;
-    position: absolute;
-    top: 1130px;
-    left: 360px;
-    font-family: Katibeh;
-    font-weight: Regular;
-    font-size: 24px;
-    text-align: left;
-  }
+.danielsouza {
+  width: 1000px;
+  color: #000000;
+  position: absolute;
+  top: 1360px;
+  left: 360px;
+  font-family: Katibeh;
+  font-weight: Regular;
+  font-size: 24px;
+  text-align: left;
+}
 
-  .danielsouza {
-    width: 1000px;
-    color: #000000;
-    position: absolute;
-    top: 1360px;
-    left: 360px;
-    font-family: Katibeh;
-    font-weight: Regular;
-    font-size: 24px;
-    text-align: left;
-  }
+.vitoriamaria {
+  width: 1000px;
+  color: #000000;
+  position: absolute;
+  top: 1540px;
+  left: 360px;
+  font-family: Katibeh;
+  font-weight: Regular;
+  font-size: 24px;
+  text-align: left;
+}
 
-  .vitoriamaria {
-    width: 1000px;
-    color: #000000;
-    position: absolute;
-    top: 1540px;
-    left: 360px;
-    font-family: Katibeh;
-    font-weight: Regular;
-    font-size: 24px;
-    text-align: left;
-  }
+.lanaamaral {
+  width: 1000px;
+  color: #000000;
+  position: absolute;
+  top: 1830px;
+  left: 360px;
+  font-family: Katibeh;
+  font-weight: Regular;
+  font-size: 24px;
+  text-align: left;
+}
 
-  .lanaamaral {
-    width: 1000px;
-    color: #000000;
-    position: absolute;
-    top: 1830px;
-    left: 360px;
-    font-family: Katibeh;
-    font-weight: Regular;
-    font-size: 24px;
-    text-align: left;
-  }
+.luizalmeida {
+  width: 1000px;
+  color: #000000;
+  position: absolute;
+  top: 2020px;
+  left: 360px;
+  font-family: Katibeh;
+  font-weight: Regular;
+  font-size: 24px;
+  text-align: left;
+}
 
-  .luizalmeida {
-    width: 1000px;
-    color: #000000;
-    position: absolute;
-    top: 2020px;
-    left: 360px;
-    font-family: Katibeh;
-    font-weight: Regular;
-    font-size: 24px;
-    text-align: left;
-  }
- 
-  .carlossouza {
-    width: 939px;
-    color: rgba(0,0,0,1);
-    position: absolute;
-    top: 2600px;
-    left: 362px;
-    font-family: Katibeh;
-    font-weight: Regular;
-    font-size: 24px;
-    text-align: left;
-  }
-  .marianacruz {
-    width: 939px;
-    color: rgba(0,0,0,1);
-    position: absolute;
-    top: 2800px;
-    left: 367px;
-    font-family: Katibeh;
-    font-weight: Regular;
-    font-size: 24px;
-    text-align: left;
-  }
-  .name {
-    color: #fff;
-  }
-  
+.carlossouza {
+  width: 939px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2600px;
+  left: 362px;
+  font-family: Katibeh;
+  font-weight: Regular;
+  font-size: 24px;
+  text-align: left;
+}
+.marianacruz {
+  width: 939px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2800px;
+  left: 367px;
+  font-family: Katibeh;
+  font-weight: Regular;
+  font-size: 24px;
+  text-align: left;
+}
+
 .img1 {
   width: 300px;
   height: 350px;
@@ -477,3 +393,12 @@ body{
   top: 2780px;
 }
 
+.rodape {
+  width: 150%;
+  height: 78px;
+  background: #da91004d;
+  position: absolute;
+  top: 3650px;
+  left: -80px;
+  overflow: hidden;
+}
